@@ -1,8 +1,6 @@
 ---
 ---
 
-$base-color: #009540;
-
 @import "{{ site.theme }}";
 
 header, footer {
@@ -13,4 +11,23 @@ header, footer {
   header, footer {
     display: none;
   }
+}
+
+a {
+  color: #009540 !important;
+}
+
+a:hover {
+  color: #007a33 !important;
+}
+
+header li {
+  background: #009540 !important;
+  background: linear-gradient(to top, #009540 0%, #007a33 100%) !important;
+  box-shadow: inset 0px 1px 1px 0 rgba(0, 149, 64, 1) !important;
+}
+
+header li:hover {
+  background: #007a33 !important;
+  background: linear-gradient(to top, #007a33 0%, #005a26 100%) !important;
 }
