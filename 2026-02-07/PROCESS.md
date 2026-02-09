@@ -5,3 +5,4 @@
 - Объединяем фразы подряд от одного человека: https://opncd.ai/share/l0kaZZyf
 - Причемываем в привязке к контексту: https://opncd.ai/share/4kLQlBAJ
 - Финальная версия: https://opncd.ai/share/B8guIxjQ
+- Краткие итоги: https://opncd.ai/share/5LCpggom
