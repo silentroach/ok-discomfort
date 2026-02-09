@@ -9,8 +9,7 @@ title: ОК Дискомфорт
 {% for post in posts %}
 
 <article class="post-preview">
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  <p class="post-date">{{ post.date | date: "%d.%m.%Y" }}</p>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.date | date: "%d.%m.%Y" }} &mdash; {{ post.title }}</a></h2>
   
   {% if post.excerpt %}
   <div class="post-excerpt">
@@ -18,7 +17,7 @@ title: ОК Дискомфорт
   </div>
   {% endif %}
   
-  <a href="{{ post.url | relative_url }}" class="read-more">Читать далее →</a>
+  <a href="{{ post.url | relative_url }}" class="read-more">Читать →</a>
 </article>
 
 {% unless forloop.last %}
